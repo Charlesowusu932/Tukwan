@@ -18,8 +18,8 @@ export default function Home() {
 
         <main className="max-w-7xl mx-auto px-8 xs:px-16">
           <section>
-            <div>
-               <h1 className="text-3xl"></h1>
+            <div className="my-12">
+               <h1 className="text-3xl"> BLcok</h1>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio mollitia eius repellat deleniti soluta repellendus quam voluptatum? Perferendis rerum, ut explicabo hic temporibus, dolor placeat ipsa non voluptates incidunt architecto?</p>
             </div>
           </section>
