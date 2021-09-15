@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { SearchIcon } from '@heroicons/react/solid'
+
 
 function Header() {
     return (
@@ -16,9 +18,9 @@ function Header() {
               {/* logo side */}
 
             {/*search side */}
-                <div className=" md:border-2  md:shadow-sm  rounded-full	flex  md:px-3">
-                    <input type="search" className=" outline-none text-sm bg-transparent flex-grow text-gray-400 placeholder-gray-400" placeholder="Start your search" />
-                    <p className="hidden md:inline-flex bg-red-400 p-2 rounded-full text-white cursor-pointer  " >S</p>
+                <div className=" md:border-2  md:shadow-sm  rounded-full	flex  md:px-1 md:py-1" >
+                    <input type="search" className=" outline-none text-sm bg-transparent flex-grow text-gray-400 placeholder-gray-400 ml-3" placeholder="Start your search" />                 
+                    <SearchIcon className="hidden md:inline-flex bg-red-400 p-2 rounded-full text-white cursor-pointer h-8"/>
                 </div>
             {/*search side */}
 
